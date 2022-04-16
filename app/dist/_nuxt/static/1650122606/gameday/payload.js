@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/gameday", {data:[{}],fetch:{},mutations:[]});

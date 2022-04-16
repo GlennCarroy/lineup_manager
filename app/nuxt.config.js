@@ -2,6 +2,10 @@ const colors = require('vuetify/es5/util/colors')
 
 module.exports = {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  target: 'static',
+  generate: {
+    fallback: true
+  },
   head: {
     titleTemplate: '%s - line-up-manager',
     title: 'line-up-manager',
