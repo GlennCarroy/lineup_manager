@@ -1,0 +1,19 @@
+version: '2'
+services:
+  mongo:
+    image: mongo:4.0
+  app:
+    build: ./app
+    restart: always
+    volumes:
+      - $PWD/app:/app
+    environment:
+      - MONGO_URL=mongodb://mongo:27017/lineupmanager
+      - DEBUG=lineup:*
+      - APP_URL=http://localhost
+      # - SERVER_URL=
+    ports:
+      - "3000:3000"
+    tty: true
+    depends_on:
+      - mongo
