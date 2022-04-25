@@ -30,7 +30,7 @@ module.exports = {
         { 
             name: 'Beth',
             derbyname: 'Bex',
-            id: '01',
+            id: 1,
             rotation: 3,
             leads: 0,
             penalties: 0,
@@ -55,7 +55,7 @@ module.exports = {
         { 
           name: '',
           derbyname: 'Lilith',
-          id: '090',
+          id: 90,
           rotation: 2,
           penalties: 0,
           pivot: true
@@ -77,7 +77,7 @@ module.exports = {
         {
           name: 'Clém\'',
           derbyname: 'Avo',
-          id: 31,
+          id: 3,
           rotation: 2,
           penalties: 0
         },
@@ -112,7 +112,7 @@ module.exports = {
         {
           name: '',
           derbyname: 'Neen',
-          id: '04',
+          id: 04,
           rotation: 3,
           penalties: 0
         }
@@ -121,18 +121,18 @@ module.exports = {
       {
         id: 'Sasha',
         tripod: {
-          tete: [72,'090'],
+          tete: [72, 911],
           inte: [502,72],
-          exte: ['090']
+          exte: [911]
         },
         offense: [54]
       },
       {
         id: 'Trixie',
         tripod: {
-          tete: [99,21,911],
-          inte: [21],
-          exte: [99,911]
+          tete: [99,21],
+          inte: [21,90],
+          exte: [90]
         },
         offense: [141]
       },
@@ -140,14 +140,14 @@ module.exports = {
         id: 'Gottmik',
         tripod: {
           tete: [72],
-          inte: [99, 911],
+          inte: [911],
           exte: [141]
         },
         offense: [54]
       },
     ],
     backups: {
-      inte: [04,31],
+      inte: [4,3],
       exte: [22]
     },
     game: {
