@@ -19,9 +19,9 @@ module.exports = {
             jammer: true
         },
         { 
-            name: 'Claire',
-            derbyname: 'Fuckeuse',
-            id: 4950,
+            name: '/',
+            derbyname: 'Legs',
+            id: 1395,
             rotation: 2,
             leads: 0,
             penalties: 0,
@@ -121,18 +121,18 @@ module.exports = {
       {
         id: 'Sasha',
         tripod: {
-          tete: [72, 911],
-          inte: [502,72],
-          exte: [911]
+          tete: [3, 911],
+          inte: [502,3],
+          exte: [911, 90]
         },
         offense: [54]
       },
       {
         id: 'Trixie',
         tripod: {
-          tete: [99,21],
-          inte: [21,90],
-          exte: [90]
+          tete: [21,72],
+          inte: [72,21],
+          exte: [99]
         },
         offense: [141]
       },
@@ -147,8 +147,8 @@ module.exports = {
       },
     ],
     backups: {
-      inte: [4,3],
-      exte: [22]
+      inte: [4],
+      exte: [22,90]
     },
     game: {
       jams: [],
