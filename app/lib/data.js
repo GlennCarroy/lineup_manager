@@ -18,7 +18,7 @@ module.exports = {
             penalties: 0,
             jammer: true
         },
-        { 
+        {
             name: '/',
             derbyname: 'Legs',
             id: 1395,
@@ -27,7 +27,7 @@ module.exports = {
             penalties: 0,
             jammer: true
         },
-        { 
+        {
             name: 'Beth',
             derbyname: 'Bex',
             id: 1,
@@ -36,7 +36,7 @@ module.exports = {
             penalties: 0,
             jammer: true
         },
-        { 
+        {
           name: 'Anaïs',
           derbyname: 'Bobo',
           id: 141,
@@ -44,7 +44,7 @@ module.exports = {
           penalties: 0,
           pivot: true
         },
-        { 
+        {
           name: '',
           derbyname: 'Bully',
           id: 54,
@@ -52,7 +52,7 @@ module.exports = {
           penalties: 0,
           pivot: true
         },
-        { 
+        {
           name: '',
           derbyname: 'Lilith',
           id: 90,
@@ -121,18 +121,18 @@ module.exports = {
       {
         id: 'Sasha',
         tripod: {
-          tete: [3, 911],
-          inte: [502,3],
-          exte: [911, 90]
+          tete: [72],
+          inte: [502,22],
+          exte: [3]
         },
         offense: [54]
       },
       {
         id: 'Trixie',
         tripod: {
-          tete: [21,72],
-          inte: [72,21],
-          exte: [99]
+          tete: [21,4],
+          inte: [911,3],
+          exte: [99,90]
         },
         offense: [141]
       },
@@ -148,7 +148,7 @@ module.exports = {
     ],
     backups: {
       inte: [4],
-      exte: [22,90]
+      exte: [22]
     },
     game: {
       jams: [],
