@@ -37,6 +37,15 @@ module.exports = {
             jammer: true
         },
         {
+            name: '/',
+            derbyname: 'Fuckeuse',
+            id: 4950,
+            rotation: 3,
+            leads: 0,
+            penalties: 0,
+            jammer: true
+        },
+        {
           name: 'Anaïs',
           derbyname: 'Bobo',
           id: 141,
@@ -53,12 +62,11 @@ module.exports = {
           pivot: true
         },
         {
-          name: '',
-          derbyname: 'Lilith',
-          id: 90,
+          name: 'aka Guigui',
+          derbyname: 'Guinness',
+          id: 911,
           rotation: 2,
-          penalties: 0,
-          pivot: true
+          penalties: 0
         },
         {
           name: 'Sarah',
@@ -71,14 +79,14 @@ module.exports = {
           name: 'Rose',
           derbyname: 'Roz',
           id: 22,
-          rotation: 3,
+          rotation: 2,
           penalties: 0
         },
         {
-          name: 'Clém\'',
-          derbyname: 'Avo',
-          id: 3,
-          rotation: 2,
+          name: '/',
+          derbyname: 'Kiki',
+          id: 999,
+          rotation: 3,
           penalties: 0
         },
         {
@@ -96,24 +104,17 @@ module.exports = {
           penalties: 0
         },
         {
-          name: 'aka Guigui',
-          derbyname: 'Guinness',
-          id: 911,
-          rotation: 2,
-          penalties: 0
-        },
-        {
-          name: '',
-          derbyname: 'Chuck',
-          id: 99,
-          rotation: 1,
-          penalties: 0
-        },
-        {
           name: '',
           derbyname: 'Neen',
           id: 04,
           rotation: 3,
+          penalties: 0
+        },
+        {
+          name: 'Clara',
+          derbyname: 'Olive Hoover',
+          id: 122,
+          rotation: 2,
           penalties: 0
         }
     ],
@@ -122,8 +123,8 @@ module.exports = {
         id: 'Sasha',
         tripod: {
           tete: [72],
-          inte: [502,22],
-          exte: [3]
+          inte: [502,999],
+          exte: [122]
         },
         offense: [54]
       },
@@ -131,8 +132,8 @@ module.exports = {
         id: 'Trixie',
         tripod: {
           tete: [21,4],
-          inte: [911,3],
-          exte: [99,90]
+          inte: [911],
+          exte: [22]
         },
         offense: [141]
       },
