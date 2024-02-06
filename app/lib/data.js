@@ -1,9 +1,9 @@
 module.exports = {
     players : [
         {
-            name: 'Valentine',
-            derbyname: 'Ta Mère',
-            id: 3615,
+            name: '/',
+            derbyname: 'La Moche',
+            id: 12,
             rotation: 1,
             leads: 0,
             penalties: 0,
@@ -28,9 +28,9 @@ module.exports = {
             jammer: true
         },
         {
-            name: 'Beth',
-            derbyname: 'Bex',
-            id: 1,
+            name: '/',
+            derbyname: 'Moche & Moshi',
+            id: 160,
             rotation: 3,
             leads: 0,
             penalties: 0,
@@ -90,9 +90,9 @@ module.exports = {
           penalties: 0
         },
         {
-          name: 'Anaïs',
-          derbyname: 'Major',
-          id: 502,
+          name: '/',
+          derbyname: 'Gipsy Queen',
+          id: 729,
           rotation: 2,
           penalties: 0
         },
@@ -104,47 +104,65 @@ module.exports = {
           penalties: 0
         },
         {
-          name: '',
-          derbyname: 'Neen',
-          id: 04,
+          name: '/',
+          derbyname: 'Louve',
+          id: 71,
           rotation: 3,
           penalties: 0
         },
         {
-          name: 'Clara',
-          derbyname: 'Olive Hoover',
-          id: 122,
+          name: '/',
+          derbyname: 'Lux',
+          id: 17,
           rotation: 2,
           penalties: 0
         }
     ],
     lines: [
       {
-        id: 'Sasha',
+        id: 'PACK 1',
         tripod: {
-          tete: [72],
-          inte: [502,999],
-          exte: [122]
+          tete: [22],
+          inte: [911, 999],
+          exte: [21]
         },
         offense: [54]
       },
       {
-        id: 'Trixie',
+        id: 'PACK 2',
         tripod: {
-          tete: [21,4],
-          inte: [911],
-          exte: [22]
+          tete: [72],
+          inte: [71, 17],
+          exte: [729]
         },
         offense: [141]
       },
       {
-        id: 'Gottmik',
+        id: 'Fat Line',
         tripod: {
           tete: [72],
           inte: [911],
-          exte: [141]
+          exte: [21]
         },
-        offense: [54]
+        offense: [141]
+      },
+      {
+        id: 'Power Block',
+        tripod: {
+          tete: [72],
+          inte: [911, 17],
+          exte: [21]
+        },
+        offense: [141]
+      },
+      {
+        id: 'Power Jam',
+        tripod: {
+          tete: [71],
+          inte: [911, 17],
+          exte: [21, 22]
+        },
+        offense: [141]
       },
     ],
     backups: {
